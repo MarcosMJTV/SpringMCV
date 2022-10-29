@@ -13,8 +13,11 @@ Esta es la pagina 1.
 Ingresar Nombre: <input type="text" name="txtNombre"><br/>
 Ingresar Edad: <input type="text" name="txtEdad">
 <input type="submit" name="btnRedirigir"  value= "redirigir pagina 2">
-
 </form>
+<form action="redireccionar_registros.html" method="get">
+<input type="submit" name="btnRedirigirRegistros"  value= "redirigir pagina registros" >
+</form>
+
 
 </body>
 </html>
